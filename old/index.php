@@ -1,11 +1,3 @@
-<?php
-if (substr($_SERVER['HTTP_HOST'],0,3) != 'www') {
-header('HTTP/1.1 301 Moved Permanently');
-header('Location: http://www.'.$_SERVER['HTTP_HOST']
-.$_SERVER['REQUEST_URI']);
-}
-?>
-
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
